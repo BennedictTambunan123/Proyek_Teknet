@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="8f7f2f3d-d0a8-4953-a8d1-61c592a41c47" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:56269/BPOMService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BPOMService.disco" MetadataType="Disco" ID="b86712bb-5155-49c1-9a4a-8880c35978bc" SourceId="1" SourceUrl="http://localhost:56269/BPOMService.svc?disco" />
+    <MetadataFile FileName="BPOMService.xsd" MetadataType="Schema" ID="13fccc1d-adac-4e05-beab-00acd6302fc5" SourceId="1" SourceUrl="http://localhost:56269/BPOMService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BPOMService1.xsd" MetadataType="Schema" ID="8495af1b-a99c-4667-ad33-4c16233b52c7" SourceId="1" SourceUrl="http://localhost:56269/BPOMService.svc?xsd=xsd1" />
+    <MetadataFile FileName="BPOMService2.xsd" MetadataType="Schema" ID="048286ba-e6c3-4296-9e5a-9ea5faa979b8" SourceId="1" SourceUrl="http://localhost:56269/BPOMService.svc?xsd=xsd2" />
+    <MetadataFile FileName="BPOMService3.xsd" MetadataType="Schema" ID="ac7c7e83-d186-48a3-b3da-a24390f6e61d" SourceId="1" SourceUrl="http://localhost:56269/BPOMService.svc?xsd=xsd3" />
+    <MetadataFile FileName="BPOMService.wsdl" MetadataType="Wsdl" ID="b66ed215-24e4-49e2-9938-5ae3de5cdf4b" SourceId="1" SourceUrl="http://localhost:56269/BPOMService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
